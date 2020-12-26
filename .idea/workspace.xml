@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a46d2a0d-0ab3-4d23-8c9e-4cb93ede48ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IQ/HashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IQ/Hashset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IQ/LamdaFun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,25 +63,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="21" />
+          <entry key="java" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
-          <entry key="java" value="1461" />
-          <entry key="txt" value="95" />
+          <entry key="java" value="1489" />
+          <entry key="txt" value="123" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1461" />
-          <entry key="PLAIN_TEXT" value="107" />
+          <entry key="JAVA" value="1489" />
+          <entry key="PLAIN_TEXT" value="135" />
         </counts>
       </usages-collector>
     </session>
@@ -94,15 +93,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
               <caret line="14" column="18" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IQ/StringReverse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -170,7 +160,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IQ/Hashset.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
@@ -179,6 +169,15 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#231#239#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IQ/LamdaFun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -251,6 +250,7 @@
         <option value="$PROJECT_DIR$/src/IQ/HashMap.java" />
         <option value="$PROJECT_DIR$/src/IQ/HashSet.java" />
         <option value="$PROJECT_DIR$/src/IQ/Hashset.java" />
+        <option value="$PROJECT_DIR$/src/IQ/LamdaFun.java" />
       </list>
     </option>
   </component>
@@ -312,7 +312,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608706426673" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609012772232" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -335,20 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Hashset">
-    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="single.Demo" />
-      <module name="Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="single.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LamdaFun">
     <configuration name="HashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IQ.HashMap" />
       <module name="Demo" />
@@ -364,6 +351,19 @@
     </configuration>
     <configuration name="Hashset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IQ.Hashset" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IQ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LamdaFun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IQ.LamdaFun" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
@@ -402,19 +402,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Demo (1)" />
       <item itemvalue="Application.StringReverse" />
       <item itemvalue="Application.HashMap" />
       <item itemvalue="Application.MissingNumber" />
       <item itemvalue="Application.Hashset" />
+      <item itemvalue="Application.LamdaFun" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LamdaFun" />
         <item itemvalue="Application.Hashset" />
         <item itemvalue="Application.HashMap" />
         <item itemvalue="Application.MissingNumber" />
         <item itemvalue="Application.StringReverse" />
-        <item itemvalue="Application.Demo (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -437,7 +437,7 @@
       <workItem from="1607793699794" duration="6869000" />
       <workItem from="1607967527664" duration="5794000" />
       <workItem from="1608483959551" duration="625000" />
-      <workItem from="1608703441862" duration="2420000" />
+      <workItem from="1608703441862" duration="3722000" />
     </task>
     <task id="LOCAL-00001" summary="find missing number in a array">
       <created>1607508327893</created>
@@ -453,11 +453,18 @@
       <option name="project" value="LOCAL" />
       <updated>1607804265058</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="HashMap and HashSet added">
+      <created>1608706589224</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608706589224</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57518000" />
+    <option name="totallyTimeSpent" value="58820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -472,7 +479,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21134752" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21134752" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -502,7 +509,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="find missing number in a array" />
     <MESSAGE value="palindrome and prime numbers and factorial by using recursive" />
-    <option name="LAST_COMMIT_MESSAGE" value="palindrome and prime numbers and factorial by using recursive" />
+    <MESSAGE value="HashMap and HashSet added" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashMap and HashSet added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Demo.iml">
@@ -781,6 +789,13 @@
             <element signature="imports" expanded="true" />
             <element signature="e#231#239#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IQ/LamdaFun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
         </state>
       </provider>
     </entry>
